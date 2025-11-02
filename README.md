@@ -1,4 +1,9 @@
-# Speech-to-Text Engine 🎙️
+<h1>
+  <img src="./docs/images/icon.png" width="50" align="left" style="margin-right: 10px;">
+ Speech-to-Text Engine
+</h1>
+
+<br clear="left"/>
 
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
 [![License](https://img.shields.io/badge/license-Apache2-blue.svg)](LICENSE)
@@ -6,30 +11,30 @@
 
 A high-performance, enterprise-grade speech recognition system built in Rust, powered by the VOSK speech recognition toolkit. Convert audio files to text with exceptional accuracy and speed.
 
-## 🚀 Key Features
+### <img src="./docs/images/icon.png" width="24" align="top"> Key Features
 
-- **High Accuracy**: Leverages VOSK's state-of-the-art speech recognition models
-- **Fast Processing**: Optimized Rust implementation with efficient memory management
-- **Real-time Progress**: Live progress tracking during audio processing
-- **Multiple Formats**: Support for various audio file formats
-- **Cross-Platform**: Works on Windows and Linux systems
-- **Batch Processing**: Command-line interface for automated workflows
-- **Interactive Mode**: User-friendly interactive interface
-- **Robust Error Handling**: Comprehensive error management and validation
+- `High Accuracy`: Leverages VOSK's state-of-the-art speech recognition models
+- `Fast Processing`: Optimized Rust implementation with efficient memory management
+- `Real-time Progres`: Live progress tracking during audio processing
+- `Multiple Formats`: Support for various audio file formats
+- `Cross-Platform`: Works on Windows and Linux systems
+- `Batch Processing`: Command-line interface for automated workflows
+- `Interactive Mode`: User-friendly interactive interface
+- `Robust Error Handling`: Comprehensive error management and validation
 
-## 🛠️ Technical Stack
+### <img src="./docs/images/icon.png" width="24" align="top"> Technical Stack
 
-- **Language**: Rust (Edition 2024)
-- **Speech Engine**: VOSK 0.3.1
-- **Audio Processing**: Custom high-performance audio processor
-- **Architecture**: Modular design with separated concerns
+- `Language`: Rust (Edition 2024)
+- `Speech Engine`: VOSK 0.3.1
+- `Audio Processing`: Custom high-performance audio processor
+- `Architecture`: Modular design with separated concerns
 
-## 📋 Prerequisites
+### <img src="./docs/images/icon.png" width="24" align="top"> Prerequisites
 
 - Rust 1.70 or higher
 - VOSK model files (download from [VOSK Models](https://alphacephei.com/vosk/models))
 
-## 🎙️Supported Audio Formats
+### ️<img src="./docs/images/icon.png" width="24" align="top"> Supported Audio Formats
 
 | Format | Sample Rate | Bit Depth | Channels |
 |--------|-------------|-----------|----------|
@@ -38,15 +43,15 @@ A high-performance, enterprise-grade speech recognition system built in Rust, po
 | FLAC   | 8-192 kHz   | 16-24 bit | Mono/Stereo |
 | OGG    | 8-48 kHz    | Variable  | Mono/Stereo |
 
-## 🔧 Installation
+### <img src="./docs/images/icon.png" width="24" align="top"> Installation
 
-### 1. Clone the Repository
+#### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/dsddevs/speech-to-text.git
 cd speech_to_text
 ```
 
-### 2. Download VOSK Model
+#### 2️⃣ Download VOSK Model
 Download a VOSK model suitable for your language:
 ```bash
 # Example for English model
@@ -54,14 +59,12 @@ wget https://alphacephei.com/vosk/models/vosk-model-en-us-0.22.zip
 unzip vosk-model-en-us-0.22.zip
 ```
 
-### 3. Build the Project
+#### 3️⃣ Build the Project
 ```bash
 cargo build --release
 ```
 
-## 🎯 Usage
-
-### Command Line Mode
+### <img src="./docs/images/icon.png" width="24" align="top"> Usage
 
 ```bash
 # Variant 1
@@ -75,7 +78,7 @@ cargo run
 Enter the path to the VOSK model: <vosk-model path> 
 Enter the path to the audio file: <audio file path>
 ```
-## 📁 Project Structure
+### <img src="./docs/images/icon.png" width="24" align="top"> Project Structure
 
 ```
 speech-to-text/
@@ -92,22 +95,22 @@ speech-to-text/
 └── README.md                # This file
 ```
 
-## 🔧 Configuration
+### <img src="./docs/images/icon.png" width="24" align="top"> Configuration
 
 The system uses the following default settings:
-- **Sample Rate**: 16,000 Hz
-- **Chunk Size**: 16,384 bytes
-- **Max Alternatives**: 1
-- **Word-level timestamps**: Disabled for optimal performance
+- ```Sample Rate```: 16,000 Hz
+- ```Chunk Size```: 16,384 bytes
+- ```Max Alternatives```: 1
+- ```Word-level timestamps```: Disabled for optimal performance
 
-## 📊 Performance
+### <img src="./docs/images/icon.png" width="24" align="top"> Performance
 
-- **Processing Speed**: Real-time or faster depending on hardware
-- **Memory Usage**: Optimized for large audio files
-- **Supported File Sizes**: No practical limit (streaming processing)
-- **Progress Tracking**: Real-time progress updates every 10 chunks
+- `Processing Speed`: Real-time or faster depending on hardware
+- `Memory Usage`: Optimized for large audio files
+- `Supported File Sizes`: No practical limit (streaming processing)
+- `Progress Tracking`: Real-time progress updates every 10 chunks
 
-## 🌍 Supported Languages
+### <img src="./docs/images/icon.png" width="24" align="top"> Supported Languages
 
 Supports any language with available VOSK models:
 - English (US/UK)
@@ -118,7 +121,7 @@ Supports any language with available VOSK models:
 - Chinese
 - And many more...
 
-## 🔍 Example Output
+### <img src="./docs/images/icon.png" width="24" align="top"> Output
 
 ```
 === Speech recognition system ===
@@ -133,18 +136,17 @@ Successfully created text file: /audio/text_meeting.txt
 Recognition completed successfully!
 ```
 
-## 📄 License
+### <img src="./docs/images/icon.png" width="24" align="top"> License
 This project is licensed under the Apache-2 License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contact
-telegram: @dsddevs
+### <img src="./docs/images/icon.png" width="24" align="top"> Contact
+- 📧 dsddevs@gmail.com
+- <img src="./docs/images/telegram.png" width="24" valign="middle"> @dsddevs / +998906006989
 
-## 🙏 Acknowledgments
+
+### <img src="./docs/images/icon.png" width="24" align="top"> Acknowledgments
 
 - [VOSK](https://alphacephei.com/vosk/) for the excellent speech recognition toolkit
 - Rust community for the amazing ecosystem
 - Contributors and testers
 
----
-
-**Built Rust Projects by Davlatbek Rabbimov**
