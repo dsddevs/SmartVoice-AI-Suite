@@ -48,7 +48,7 @@ A high-performance, enterprise-grade speech recognition system built in Rust, po
 #### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/dsddevs/SmartVoice-AI-Suite.git
-cd speech_to_text
+cd SmartVoice-AI-Suite
 ```
 
 #### 2️⃣ Download VOSK Model
@@ -81,7 +81,7 @@ Enter the path to the audio file: <audio file path>
 ### <img src="./docs/images/icon.png" width="24" align="top"> Project Structure
 
 ```
-speech-to-text/
+SmartVoice-AI-Suite/
 ├── src/
 │   ├── main.rs              # Entry point and CLI handling
 │   ├── audio_processor.rs   # Audio processing and chunking
