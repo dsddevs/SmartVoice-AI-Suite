@@ -1,6 +1,6 @@
 <h1>
   <img src="./docs/images/icon.png" width="50" align="left" style="margin-right: 10px;">
- Speech-to-Text Engine
+ SmartVoice-AI-Suite
 </h1>
 
 <br clear="left"/>
