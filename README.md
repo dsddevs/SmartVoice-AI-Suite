@@ -47,7 +47,7 @@ A high-performance, enterprise-grade speech recognition system built in Rust, po
 
 #### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/dsddevs/speech-to-text.git
+git clone https://github.com/dsddevs/SmartVoice-AI-Suite.git
 cd speech_to_text
 ```
 
